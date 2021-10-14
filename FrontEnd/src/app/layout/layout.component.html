@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-sm  navbar-dark sticky-top" id="navibar">
+
+  <a routerLink='/cards' class="navbar-brand text-white ml-5"> <mdb-icon fas icon = "clipboard-list fa-lg"></mdb-icon> ToDo Tracker</a>
+  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerNavbar">
+              <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="headerNavbar">
+    <ul class="navbar-nav ms-auto">
+
+      <li class="nav-item"  *ngIf='isLoggedIn'><a (click)="openModal()" class="nav-link text-white"><mdb-icon fas icon="plus-square"></mdb-icon> Add New Task</a></li>
+      <li class="nav-item"  *ngIf='isLoggedIn'><a (click)="logout()" class="nav-link text-white"><mdb-icon fas icon="arrow-circle-right"></mdb-icon> Logout </a></li>
+      
+      <li class="nav-item" *ngIf='!isLoggedIn'><a href="/login" class="nav-link text-white"><mdb-icon fas icon="arrow-circle-left"></mdb-icon> Login </a></li>
+      <li class="nav-item" *ngIf='!isLoggedIn'><a href="/register" class="nav-link text-white"><mdb-icon fas icon="arrow-circle-up"></mdb-icon> Register </a></li>
+    </ul>
+  </div>
+</nav>
+<div class="taskBody">
+  <router-outlet></router-outlet>
+  <a (click)="openModal()" class="float" data-toggle="tooltip" data-placement="right" title="New Task">
+    <mdb-icon fas icon="plus" class="task-form"></mdb-icon>
+    </a>
+</div>
+
+
+<div class="footer">
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-white text-center py-3">© 2021 Copyright : To-do-Tracker</div>
+      </footer>
+</div>
+

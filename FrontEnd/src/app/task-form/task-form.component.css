@@ -1,0 +1,30 @@
+/* .taskContainer{
+    height: 100%;
+    border: 2px solid  #000044;
+    border-radius: 40px;
+    width: 500px;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    color: #000044;
+    margin: 30px;
+    padding-top: 40px;
+
+}
+
+.form{
+    color: #000044;
+   
+} */
+
+.btn-save{
+    background-color: #000044;
+    color: white;
+}
+
+.text-color{
+    color:#04007a ;
+}

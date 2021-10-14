@@ -1,0 +1,98 @@
+.cards{
+    border: #e6e6e6 solid 1px;
+    border-radius: 10px;
+   
+}
+
+.card-header{
+    height: 45px;
+    padding: 0%;
+    background-color:#e6e6ff;
+}
+
+.heading{
+    margin: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.completed-icon{
+    margin-top: 10px;   
+    color: #008000;
+}
+
+.card-body{
+    padding: 2%;;
+    height: 60px;
+    overflow-y: scroll;
+}
+
+.card-body::-webkit-scrollbar{
+    padding: 2%;;
+    max-height: 50px;
+   
+    display: none;
+}
+
+.high{
+    border-bottom:5px solid tomato;
+    /* color: red; */
+
+}
+.med{
+    border-bottom:5px solid #e6c300 ;
+    /* color :#36ab21 ; */
+}
+.low{
+    border-bottom:5px solid #8600b3 ;
+     /* color: #e6c300; */
+} 
+
+
+
+.card-footer{
+    height: 35px;
+    padding: 0%;
+    background-color: #e6e6ff;
+}
+
+.dueDate{
+    
+    margin-left: 10px;
+    font-weight: bold;
+}
+.sub-menu{
+    height: 24px;
+    text-align: center;
+    padding: 0%;
+}
+
+.nav-link:hover{
+    background-color: #696969; 
+    height: 24px;
+    text-align: center;
+    padding: 0%;
+    border-radius: 100%;
+}
+.cardDetails{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 0%;
+}
+.cardDetails:hover{
+    background-color: #696969;
+    color: white
+}
+
+.btn-save{
+    background-color: #000044;
+    color: white;
+}
+
+.text-color{
+    color:#04007a ;
+}
+
+.modal-footer{
+    padding: 0%;
+}

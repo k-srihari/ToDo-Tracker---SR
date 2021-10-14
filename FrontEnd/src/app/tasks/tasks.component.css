@@ -1,0 +1,101 @@
+/* .heading{
+    margin: 20px;
+    color: #0275d8;
+    
+} */
+/* .task-menu{
+    border-bottom: gray 1px solid;
+    
+}
+.task-menu-list{
+    width:100px;
+    height: 30px;
+}
+.task-menu-list:hover{
+    background-color: #0275d8;
+    color: white;
+}
+.cards{
+  width: 300px; 
+  margin: 20px; 
+}
+
+.dueDate{
+    width: 150px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-link:hover{
+    background-color: #0275d8;
+    height: 50px;
+    padding: 8px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.card-link{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.cardDetails:hover{
+    background-color: #0275d8;
+    color: white;
+    width: 138px;
+    margin-left: 10px;
+    border-radius: 2px;
+} */
+
+.task-tabs{
+    margin-left: 50px;
+}
+
+.menu-btn{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* color: blueviolet; */
+}
+.menu-btn:hover,.menu-btn:active{
+    border-bottom: solid 2px #0275d8;
+    color: #0275d8;  
+}
+
+nav {
+    font: bold;
+}
+
+#topbar {
+    position: sticky;
+    top: 55px;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: #f3f7ee;
+}
+
+.nav-link{
+    width: 120px;
+    color: red;
+    text-align: center;
+}
+.nav-item:hover{
+    font-weight: bold; 
+    border-bottom: #000044 2px solid;
+    
+}
+.nav-link:active
+{
+    font-weight: bold;
+    border-bottom: #000044 2px solid !important;
+}

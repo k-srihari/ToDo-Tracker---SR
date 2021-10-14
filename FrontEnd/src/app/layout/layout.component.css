@@ -1,0 +1,98 @@
+.header{
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+.title{
+     margin-left: 100px;
+     color: white;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: bold;
+}
+
+.search
+{
+    margin-left: 300px;
+    width: 400px;
+    color: white;
+}
+
+.menu-list{
+    margin-left: 320px;
+}
+
+.menu-items{
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.userItemHover:hover{
+    background-color: #0275d8;
+    color: white;
+    width: 138px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.sidebar{
+    width: 150px;
+    height: 590px;
+    color: white;
+    margin-left: 14px;
+}
+
+.taskBody
+{
+    width: 96%;
+    height: 100%;
+    
+    /* margin-top: 70px; */
+    /* margin-bottom: 80px; */
+}
+
+.menu-items:hover{
+    background-color: #0275d8;
+    border-radius: 2px;
+}
+
+.footer{
+    background-color: #000044;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #000044;
+}
+#navibar {
+    z-index: 3;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:100px;
+	right:50px;
+	background-color:#000044;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    padding-top: 18px;
+}
+.float:hover{
+    background-color: #00008e;
+}
+
+.task-form{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
