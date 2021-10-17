@@ -9,7 +9,7 @@ import org.springframework.http.codec.ServerCodecConfigurer;
 
 @SpringBootApplication
 @EnableFeignClients
- @EnableEurekaClient
+@EnableEurekaClient
 public class TaskManagerServiceApplication {
 
 	public static void main(String[] args) {

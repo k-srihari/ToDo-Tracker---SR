@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
- @EnableEurekaClient
+@EnableEurekaClient
 public class TaskArchiveServiceApplication {
 
 	public static void main(String[] args) {
